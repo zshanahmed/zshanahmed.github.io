@@ -674,6 +674,10 @@ img{
     color: var(--text-color-light);
 }
 
+.contact__link:hover{
+    color: var(--first-color);
+}
+
 /*==================== FOOTER ====================*/
 .footer{
     padding-top: 2rem;
