@@ -788,8 +788,9 @@ img{
         margin-right: var(--mb-1);
     }
 
-    .about__buttons{
-        padding: 0.8rem;
+    .about__button{
+        padding: 0.6rem;
+        margin-right: var(--mb-0-5);
     }
 
     .nav__menu{
