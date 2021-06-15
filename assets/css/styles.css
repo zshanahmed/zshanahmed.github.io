@@ -487,31 +487,28 @@ img{
     background-color: var(--first-color);
 }
 
-.skills__html{
+.skills__java{
+    width: 70%;
+}
+
+.skills__html__css{
     width: 90%;
 }
 
-.skills__css{
-    width: 80%;
-}
-
 .skills__js{
-    width: 70%;
-}
-
-.skills__react{
     width: 80%;
 }
 
-.skills__php{
-    width: 60%;
+
+.skills__django{
+    width: 90%;
 }
 
-.skills__node{
-    width: 70%;
+.skills__mern{
+    width: 80%;
 }
 
-.skills__sql{
+.skills__ror{
     width: 90%;
 }
 
