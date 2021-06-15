@@ -256,6 +256,10 @@ img{
     align-items: center;
 }
 
+.home__button:hover .button__icon{
+    transform: translateX(.22rem);
+}
+
 .home__social{
     display: grid;
     grid-template-columns: max-content;
