@@ -428,7 +428,7 @@ img{
 .skills__header{
     display: flex;
     align-items: center;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-2);
     cursor: pointer;
 }
 
@@ -468,13 +468,13 @@ img{
 }
 
 .skills__name{
-    font-size: var(--normal-font-size);
+    font-size: 1.1rem;
     font-weight: var(--font-medium);
 }
 
 .skills__bar,
 .skills__percentage{
-    height: 5px;
+    height: 7px;
     border-radius: .25rem;
 }
 
@@ -501,7 +501,7 @@ img{
 
 
 .skills__django{
-    width: 90%;
+    width: 92%;
 }
 
 .skills__mern{
@@ -509,7 +509,7 @@ img{
 }
 
 .skills__ror{
-    width: 90%;
+    width: 85%;
 }
 
 .skills__python{
