@@ -262,12 +262,12 @@ img{
     row-gap: 1rem;
 }
 
-.home__social-icons{
-    font-size: 1.25rem;
+.home__social-icon{
+    font-size: 1.35rem;
     color: var(--first-color);
 }
 
-.home__social-icons:hover{
+.home__social-icon:hover{
     color: var(--first-color-alt);
 }
 
@@ -967,7 +967,7 @@ img{
     }
 
     .home__blob{
-        width: 320px;
+        width: 280px;
     }
 
     .home__social{
