@@ -386,8 +386,17 @@ img{
     text-align: center;
 }
 
+.about__buttons{
+    display: flex;
+    justify-content: center;
+}
+
 .about__button:hover .button__icon{
-    transform: translateY(.20rem);
+    transform: translateY(0.25rem);
+}
+
+.about__paper__button:hover .button__icon{
+    transform: translate(0.25rem, -0.25rem);
 }
 
 /*==================== SKILLS ====================*/
@@ -777,6 +786,10 @@ img{
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
+    }
+
+    .about__buttons{
+        padding: 0.8rem;
     }
 
     .nav__menu{
