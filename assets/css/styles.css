@@ -918,11 +918,11 @@ img{
     }
 
     .home__container{
-        row-gap: 5rem;
+        row-gap: 2rem;
     }
 
     .home__content{
-        padding-top: 5.5rem;
+        padding-top: 2.5rem;
         column-gap: 2rem;
     }
     .home__blob{
