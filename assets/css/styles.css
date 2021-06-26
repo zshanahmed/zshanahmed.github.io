@@ -421,7 +421,7 @@ img{
 }
 
 /*==================== SKILLS ====================*/
-.skills__container{
+.home__skills__container{
     row-gap: 0;
 }
 
@@ -852,7 +852,7 @@ img{
     }
 
     .about__container,
-    .skills__container,
+    .home__skills__container,
     .portfolio__container,
     .contact__container,
     .footer__container{

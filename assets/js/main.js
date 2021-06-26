@@ -1,3 +1,16 @@
+/*==================== REGISTERING SERVICE WORKERS ====================*/
+if (navigator.serviceWorker) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+        .register('sw_cached_pages.js')
+        .then(reg => console.log('Service Workers Registered'))
+        .catch(err => console.log(`Service Worker failed with err: ${err}`));
+  }) 
+} else {
+  console.log('Service Workers not supported!');
+}
+
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
@@ -30,25 +43,25 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== ACCORDION SKILLS ====================*/
-const skillsContent = document.getElementsByClassName('skills__content'),
-      skillsHeader = document.querySelectorAll('.skills__header')
+// const skillsContent = document.getElementsByClassName('skills__content'),
+//       skillsHeader = document.querySelectorAll('.skills__header')
 
-function toggleSkills(){
-    let itemClass = this.parentNode.className
+// function toggleSkills(){
+//     let itemClass = this.parentNode.className
 
-    // for(i = 0; i < skillsContent.length; i++){
-    //     skillsContent[i].className = 'skills__content skills__close'
-    // }
-    if(itemClass === 'skills__content skills__close'){
-        this.parentNode.className = 'skills__content skills__open'
-    } else{
-        this.parentNode.className = 'skills__content skills__close'
-    }
-}
+//     // for(i = 0; i < skillsContent.length; i++){
+//     //     skillsContent[i].className = 'skills__content skills__close'
+//     // }
+//     if(itemClass === 'skills__content skills__close'){
+//         this.parentNode.className = 'skills__content skills__open'
+//     } else{
+//         this.parentNode.className = 'skills__content skills__close'
+//     }
+// }
 
-skillsHeader.forEach((eL) => {
-    eL.addEventListener('click', toggleSkills)
-})
+// skillsHeader.forEach((eL) => {
+//     eL.addEventListener('click', toggleSkills)
+// })
 
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll('[data-target]'),
