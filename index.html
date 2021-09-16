@@ -40,6 +40,7 @@
       href="assets/img/safari-pinned-tab.svg"
       color="#5bbad5"
     />
+    <script src="https://kit.fontawesome.com/293eab58ae.js" crossorigin="anonymous"></script>
     <meta name="theme-color" content="#ffffff" />
 
     <title>Portfolio - Zeeshan Ahmed</title>
@@ -297,66 +298,111 @@
       <section class="qualification section" id="experience">
         <h2 class="section__title">Experience</h2>
         <div class="qualification__container container">
-          <div class="qualification__tabs">
+          <div class="qualification__sections">
             <div
-              class="qualification__button button--flex qualification__active"
-              data-target="#education"
+              class="qualification__button button--flex qualification"
+            >
+              <i class="uil uil-briefcase qualification__icon"></i>
+              Work
+            </div>
+              <div class="qualification__data">
+                <div>
+                  <h4 class="qualification__subtitle">
+                    Graduate Research Assistant
+                  </h4>
+                  <span class="qualification__span"
+                    >IIHR - The University of Iowa
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2021 - Present
+                    </div>
+                    </span
+                  >
+                </div>
+                <div>
+                  <ul class="qualification__list">
+                    <li>Developing a JavaScript library for <span>Water Information System</span>, to have a configurable structure for instantiation of different information systems</li>
+                    <li>Improving performance of <span><a class="external_link" href="https://ifis.iowafloodcenter.org/ifis/" target="_blank" rel="noopener noreferrer">Iowa Flood Information System</a></span> using service workers to pre-cache and fetch assets and store metadata using indexedDB</li>
+                    <li>Modernizing the Flood Information System by developing configuration of modules to have specialized system on top of the generalized library</li>
+                    <!-- <li>Used high performance computing systems <span>(CUDA)</span> to efficiently perform large scale complex computations</li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="qualification__data">
+                <div>
+                  <h4 class="qualification__subtitle">
+                    Graduate Research Assistant
+                  </h4>
+                  <span class="qualification__span"
+                    >Computational Logic Center, The University of Iowa
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2020 - 2021
+                    </div>
+                    </span
+                  >
+                </div>
+                <div>
+                  <ul class="qualification__list">
+                    <li>Developed and optimized <span>Phoenix</span>, an Android app that detects vulnerabilities and unsafe practices in LTE Networks using lightweigh signature verfication techniques</li>
+                    <li>Analyzed and monitored power consumption of various signature types on the popular wireless careers to find optimized monitors </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div
+              class="qualification__button button--flex qualification"
             >
               <i class="uil uil-graduation-cap qualification__icon"></i>
               Education
             </div>
-
-            <div class="qualification__button button--flex" data-target="#work">
-              <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Work
-            </div>
-          </div>
-
-          <div class="qualification__sections">
-            <div
-              class="qualification__content qualification__active"
-              data-content
-              id="education"
-            >
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Electrical Engg. (BSc)</h3>
-                  <span class="qualification__subtitle"
-                    >Lahore, Pakistan - University of Engg & Technology</span
+                  <h4 class="qualification__subtitle">
+                    Masters in Computer Science
+                  </h4>
+                  <span class="qualification__span"
+                    >University of Iowa
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2020 - Present
+                    </div>
+                    </span
                   >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2013 - 2017
-                  </div>
                 </div>
-
                 <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
+                  <ul class="qualification__list">
+                    <li>Developed production-grade web products while learning and applying latest technologies and practices in Software Engineering</li>
+                    <li>Developed projects with hands-on exprience using different cloud computing technologies like <span>MapReduce</span>, <span>Hadoop</span> and <span>AWS</span></li>
+                    <li>Learned about design and implementation of the algorithms and data structures and their efficient use to solve problems</li>
+                    <li>Used high performance computing systems <span>(CUDA)</span> to efficiently perform large scale complex computations</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="qualification__data">
+                <div>
+                  <h4 class="qualification__subtitle">
+                    BSc. (Electrical Engineering)
+                  </h4>
+                  <span class="qualification__span"
+                    >University of Engineering and Technology (Pakistan)
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2013 - 2017
+                    </div>
+                    </span
+                  >
+                </div>
+                <div>
+                  <ul class="qualification__list">
+                    <li>Developed a <span><a href="https://github.com/zshanahmed/Communication-Assistant-for-Hearing-Impaired" target="_blank">communication assistant</a></span> for hearing impaired using Computer Vision and Machine Learning models, to translate sign language into readable text</li>
+                    <li>Designed and developed a self-balancing robot using feedback control systems to read sensor data and control motor movement </li>
+                    <li>Designed and developed an Electric power supply using voltage regulators and power transistors</li>
+                  </ul>
                 </div>
               </div>
 
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification__title">
-                    Computer Science (Masters)
-                  </h3>
-                  <span class="qualification__subtitle"
-                    >Iowa City, IA - University of Iowa</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2020 - 2021
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div class="qualification__content" data-content id="work">
@@ -401,114 +447,6 @@
           </div>
         </div>
       </section>
-
-      <!--==================== SKILLS ====================-->
-      <!-- <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My technical experience</span>
-
-                <div class="skills__container container grid">
-                    <div class="skills__content skills__open">
-                        <div class="skills__header">
-                            <i class="uil uil-brackets-curly skills__icon"></i> 
-
-                            <div>
-                                <h1 class="skills__titles">Languages</h1>
-                            </div>
-
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                        </div>
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Python</h3>
-                                    <span class="skills__number">92%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__python"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">HTML/CSS</h3>
-                                    <span class="skills__number">90%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html__css"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Javascript</h3>
-                                    <span class="skills__number">80%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__js"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Java</h3>
-                                    <span class="skills__number">70%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__java"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="skills__content skills__close">
-                        <div class="skills__header">
-                            <i class="uil uil-server-network skills__icon"></i>
-                            <div>
-                                <h1 class="skills__titles">Frameworks</h1>
-                            </div>
-
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                        </div>
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Django</h3>
-                                    <span class="skills__number">92%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__django"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">MERN</h3>
-                                    <span class="skills__number">80%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__mern"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Ruby on Rails</h3>
-                                    <span class="skills__number">85%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__ror"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-      <!--==================== SERVICES ====================-->
-      <!-- <section class="services section" id="services">
-    
-            </section> -->
 
       <!--==================== PORTFOLIO ====================-->
       <section class="portfolio section" id="portfolio">

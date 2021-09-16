@@ -125,7 +125,14 @@ h1,h2,h3,h4{
 
 ul{
     list-style: none;
+}
 
+.qualification__list{
+    list-style: disc;
+}
+
+.qualification__list > li {
+    padding: 0.2rem;
 }
 
 a{
@@ -546,13 +553,12 @@ img{
 }
 
 .qualification__button{
-    font-size: var(--h3-font-size);
+    color: var(--title-color);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
-    cursor: pointer;
-}
-
-.qualification__button:hover{
-    color: var(--first-color);
 }
 
 .qualification__icon{
@@ -562,8 +568,9 @@ img{
 
 .qualification__data{
     display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    padding-bottom: 1.2rem;
 }
 
 .qualification__title{
@@ -573,12 +580,29 @@ img{
 
 .qualification__subtitle{
     display: inline-block;
-    font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    font-size: 1.2rem;
+}
+
+.qualification__list span{
+    color: var(--first-color);
+}
+
+.qualification__list span a{
+    border-bottom: 1px solid var(--first-color);
+}
+
+.qualification__list span a[target="_blank"]::after{
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
+
+.qualification__span{
+    font-size: 1rem;
 }
 
 .qualification__calendar{
-    font-size: var(--smaller-font-size);
+    font-size: var(--small-font-size);
     color: var(--text-color-light)
 }
 
@@ -596,6 +620,11 @@ img{
     height: 100%;
     background-color: var(--first-color);
     transform: translate(6px, -7px);
+}
+
+.uilogo{
+    height: 40px;
+    width: 40px;
 }
 
 .qualification [data-content]{
@@ -871,6 +900,7 @@ img{
         display: grid;
         grid-template-columns: .6fr;
         justify-content: center;
+        margin-bottom: 2rem;
     }
 
 
@@ -972,7 +1002,7 @@ img{
     }
 
     .qualification__sections{
-        grid-template-columns: .5fr;
+        display: block;
     }
 
     .portfolio__img{
