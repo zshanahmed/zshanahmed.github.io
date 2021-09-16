@@ -894,6 +894,10 @@ img{
         justify-self: center;
     }
 
+    .base__img{
+        transform: scale(0.9);
+    }
+
     .about__container,
     .home__skills__container,
     .portfolio__container,
