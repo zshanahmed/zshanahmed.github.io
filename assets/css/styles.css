@@ -592,10 +592,6 @@ img{
     color: var(--first-color);
 }
 
-.qualification__list span a{
-    border-bottom: 1px solid var(--first-color);
-}
-
 .qualification__list span a[target="_blank"]::after{
     font-family: 'FontAwesome';
     content: " \f08e";
