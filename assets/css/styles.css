@@ -594,6 +594,7 @@ img{
 .qualification__list span a[target="_blank"]::after{
     font-family: 'FontAwesome';
     content: " \f08e";
+    font-size: var(--smaller-font-size);
 }
 
 
