@@ -149,6 +149,11 @@ img{
     height: auto;
 }
 
+#seeking {
+    display: block;
+    padding-top: 1em;
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
     padding: 2rem 0 4rem;
@@ -303,7 +308,7 @@ img{
 }
 
 .home__social-icon{
-    font-size: 1.35rem;
+    font-size: 1.8rem;
     color: var(--first-color);
 }
 
