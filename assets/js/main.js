@@ -166,3 +166,15 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/*==================== SERVICES WORKER ====================*/
+if (navigator.serviceWorker) {
+  window.addEventListener('load', () => {
+      navigator.serviceWorker
+          .register('sw.js')
+          .then(reg => console.log('Service Worker: Registered!'))
+          .catch(err => console.log(`Service Worker failed with err: ${err}`));
+  });
+} else {
+  console.log('Your browser doesn\'t support service worker');
+}
