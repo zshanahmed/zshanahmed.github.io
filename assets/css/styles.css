@@ -123,6 +123,12 @@ h1,h2,h3,h4{
     font-weight: var(--font-semi-bold);
 }
 
+hr.rounded {
+    border-top: 3px dashed var(--first-color-second);
+    opacity: 60%;
+    margin-bottom: 1rem;
+}
+
 ul{
     list-style: none;
 }
