@@ -522,7 +522,11 @@ img{
 }
 
 .skills__js{
-    width: 80%;
+    width: 90%;
+}
+
+.skills__graphql{
+    width: 85%;
 }
 
 
@@ -530,8 +534,8 @@ img{
     width: 92%;
 }
 
-.skills__mern{
-    width: 80%;
+.skills__react{
+    width: 90%;
 }
 
 .skills__ror{
@@ -1090,4 +1094,12 @@ img{
         bottom: -2rem;
     }
 
+}
+
+.more_projects {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
